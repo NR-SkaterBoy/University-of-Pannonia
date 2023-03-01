@@ -77,7 +77,8 @@ public class ApplicationMain {
         System.out.println("The oldest player is " + oldest.number + "\nAge: " +
                 oldest.age + "\nHeight: " + oldest.height +
                 "\nScore: " + oldest.scored + 
-                "\nPlayed: " + oldest.played + "\nHasplayed: " + oldest.hasPlayedWc);
+                "\nPlayed: " + oldest.played + "\nHasplayed: " +
+                oldest.hasPlayedWc);
         System.out.print("Give me a number of matches! Number: ");
         int played = input.nextInt();
         playedPlayer(players, played);
@@ -90,7 +91,8 @@ public class ApplicationMain {
         System.out.println("Age: " +
                 number.age + "\nHeight: " + number.height +
                 "\nScore: " + number.scored + 
-                "\nPlayed: " + number.played + "\nHasplayed: " + number.hasPlayedWc);
+                "\nPlayed: " + number.played + "\nHasplayed: " +
+                number.hasPlayedWc);
     }
     
 }
