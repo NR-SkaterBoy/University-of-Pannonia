@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap 1</title>
+</head>
+
+<body>
+    <div>
+        <h1>User Input form</h1>
+        <div>
+            <form action="">
+                <p>Personal Particular</p>
+                <p>Name: <input type="text" name="name" id="name"></p>
+                <p><label>Password: <input type="password" name="pass" id="pass"></label></p>
+                <p>Gender: <input type="radio" name="male" id="male">Male <input type="radio" name="female" id="female">Female</p>
+                <p>Age:
+                    <select name="sel" id="sel">
+                        <option value="age">&lt 1 year old</option>
+                        <option value="age">&lt 10 year old</option>
+                        <option value="age">&lt 20 year old</option>
+                        <option value="age">&lt 30 year old</option>
+                    </select>
+                </p>
+            </form>
+        </div>
+        <div>
+            <form action="">
+                <p>Languages <input type="checkbox" name="java" id="java">Java <input type="checkbox" name="c" id="c">C/C++ <input type="checkbox" name="csharp" id="csharp">C#</p>
+            </form>
+        </div>
+        <div>
+            <form action="">
+                <p>Instruction</p>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Erter your instruction here..."></textarea>
+            </form>
+        </div>
+        <button onclick="alert('Hello')">Send</button>
+        <button>Clear</button>
+    </div>
+</body>
+
+</html>

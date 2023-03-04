@@ -1,0 +1,23 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+td>p {
+    color: blue;
+}
+
+img {
+    border: 1px solid blue;
+}
+
+td {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-items: center;
+}

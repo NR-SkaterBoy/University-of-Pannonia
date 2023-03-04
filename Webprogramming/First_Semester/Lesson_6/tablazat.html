@@ -1,0 +1,72 @@
+<!DOCKTYPE html>
+<html lang="hu">
+<head>
+	<link rel="stylesheet" href="tablazat.css" />
+	<meta charset="UTF-8" />
+	
+	<style>
+		table, th, td {
+			border:1px solid black;
+			text-align: center;
+		}
+		
+		.greenbck {
+		background-color: green;
+		}
+		.bluebck {
+		background-color: blue;
+		}
+		.yellowbck {
+		background-color: yellow;
+		}
+	</style>
+	
+</head>
+
+<body>
+	<table>
+		<tr>
+			<td rowspan="3">Day</td>
+			<td colspan="4" style="text-align: center">Seminar</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center">Schedule</td>
+			<td rowspan="2" style="text-align: center">Topic</td>
+		</tr>
+		<tr>
+			<td>Begin</td>
+			<td>End</td>
+		</tr>
+		<tr>
+			<td>Monday</td>
+			<td class="yellowbck">8:00 a.m.</td>
+			<td class="bluebck">5:00 p.m.</td>
+			<td colspan="2">Introduction to XML</td>
+		</tr>
+		<tr>
+			<td rowspan="3">Tuesday</td>
+			<td class="yellowbck">8:00 a.m</td>
+			<td class="yellowbck">11:00 a.m.</td>
+			<td>Validity: DTD and Relax NG</td>
+		</tr>
+		<tr>
+			<td class="yellowbck">11. a.m.</td>
+			<td class="greenbck">2:00 p.m.</td>
+			<td>XPATH</td>
+
+		</tr>
+		<tr>
+			<td class="greenbck">2:00 p.m.</td>
+			<td class="bluebck">5:0 p.m.</td>
+			<td>XSL Transformations</td>
+		</tr>
+		<tr>
+			<td>Wednesay</td>
+			<td class="yellowbck">8:00 a.m.</td>
+			<td class="greenbck">10:00 p.m</td>
+			<td>XSL Formatting Objects</td>
+		</tr>
+	</table>
+</body>
+
+</html>

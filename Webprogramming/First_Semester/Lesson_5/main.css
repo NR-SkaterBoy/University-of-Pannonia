@@ -1,0 +1,39 @@
+.menu {
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.tablazat {
+    margin-top: 30px;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+tr {
+    padding: 5px;
+    border-radius: 7px;
+}
+
+td p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: none;
+}
+
+td p:hover {
+    display: block;
+    color: black;
+}

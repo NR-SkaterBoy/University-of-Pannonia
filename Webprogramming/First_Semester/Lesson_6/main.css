@@ -1,0 +1,57 @@
+.menu {
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.tablazat {
+    margin-top: 30px;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+tr {
+    padding: 5px;
+    border-radius: 7px;
+}
+
+
+td tel {
+    text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	/* display: none; */
+}
+
+.cnt1:hover {
+	visibility: visible;
+	opacity: 1;
+	text-align: center;
+	border-radius: 7px;
+	background: blue;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.kep1 {
+	font-weight: 80%;
+	color: green;
+	text-align: center;
+	font-weight: bold;
+}
+
+p footertext {
+	color: red;
+	font-weight: bold;
+}

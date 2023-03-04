@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>Könyvvásár</header>
+    <div>
+        <table class="konyvek">
+            <tr>
+                <td>
+                    <figure>
+                        <img src="https://rukkola.hu/system/hd_covers/000/000/285/medium/HP_20Hungarian.JPG?1390841615"
+                            alt="" height="200" width="150">
+                        <figcaption>
+                            Harry Potter - 3000 Ft<br><input type="button" value="+" onclick="add('hp')"><input
+                                type="button" value="-" onclick="minus('hp')">
+                        </figcaption>
+                    </figure>
+
+                </td>
+                <td>
+                    <figure>
+                        <img src="https://s04.static.libri.hu/cover/84/2/1898811_5.jpg" alt="" height="200" width="150">
+                        <figcaption>Magisztérium - 2500 Ft<br><input type="button" value="+"
+                                onclick="add('magi')"><input type="button" value="-" onclick="minus('magi')">
+                        </figcaption>
+                    </figure>
+
+                </td>
+                <td>
+                    <figure>
+                        <img src="https://m.media-amazon.com/images/I/51wz2kymAfL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg"
+                            alt="" height="200" width="150">
+                        <figcaption>Lenyűgöző Teremetmények - 4000Ft<br><input type="button" value="+"
+                                onclick="add('lt')"><input type="button" value="-" onclick="minus('lt')"></figcaption>
+                    </figure>
+
+                </td>
+                <td>
+                    <figure>
+                        <img src="https://d4804za1f1gw.cloudfront.net/wp-content/uploads/sites/60/2018/07/mazerunner-200x300.jpg"
+                            alt="" height="200" width="150">
+                        <figcaption>Az útvesztó - 5000 Ft<br><input type="button" value="+" onclick="add('maze')"><input
+                                type="button" value="-" onclick="minus('maze')"></figcaption>
+                    </figure>
+
+                </td>
+            </tr>
+        </table>
+
+        <h2>A kosár tartalma</h2>
+        <table class="konyvek">
+            <tr>
+                <td>Harry Potter könyv</td>
+                <td><span id="hp">0</span> db</td>
+            </tr>
+            <tr>
+                <td>Magisztérium könyv</td>
+                <td><span id="magi">0</span> db</td>
+            </tr>
+            <tr>
+                <td>Lenyűgöző teremtmények könyv</td>
+                <td><span id="lt">0</span> db</td>
+            </tr>
+            <tr>
+                <td>Az útvesztő könyv</td>
+                <td><span id="maze">0</span> db</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>A kosár tartalma:</td>
+                <td><span id="fizetni">0</span> Ft</td>
+            </tr>
+        </table>
+    </div>
+
+    <input type="button" value="Kosár ürítése" onclick="urites()">
+    <input type="button" value="Egyenleglekérdezés" onclick="showPenztarca()">
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

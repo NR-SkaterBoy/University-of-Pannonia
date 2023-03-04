@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szállások</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <td><img src="./img/HistoriaMalomkert.jpg" alt="" width="200" height="100"><br>
+                    <p>Historia Malomkert - 110.000Ft</p><br>
+                    <form action="">
+                        <input type="button" value="+" onclick="addValue('hist')">
+                        <input type="button" value="-" onclick="removeValue('hist')">
+                    </form>
+                </td>
+                <td><img src="./img/VillaMedici.jpg" alt="" width="200" height="100"><br>
+                    <p>Villa Medici - 279.000Ft</p><br>
+                    <form action="">
+                        <input type="button" value="+" onclick="addValue('medi')">
+                        <input type="button" value="-" onclick="removeValue('medi')">
+                    </form>
+                </td>
+                <td><img src="./img/Betekincs.jpg" alt="" width="200" height="100"><br>
+                    <p>Betekincs - 169.000Ft</p><br>
+                    <form action="">
+                        <input type="button" value="+" onclick="addValue('bete')">
+                        <input type="button" value="-" onclick="removeValue('bete')">
+                    </form>
+                </td>
+                <td><img src="./img/Lillafüred.jpg" alt="" width="200" height="100"><br>
+                    <p>Lillafüred - 242.000Ft</p><br>
+                    <form action="">
+                        <input type="button" value="+" onclick="addValue('lilla')">
+                        <input type="button" value="-" onclick="removeValue('lilla')">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4"><p>A kosár értéke <span id="price">0</span> Ft</p></td>
+            </tr>
+        </table>
+        <div>
+            <p>Historia Malomkert <span id="elso">0</span> db<br>
+            Villa Medici <span id="masodik">0</span> db<br>
+            Betekincs <span id="harmadik">0</span> db<br>
+            Lillafüred <span id="negyedik">0</span> db</p>
+        </div>
+
+        <p>Egyenleg <span id="egyenleg">500000</span> Ft</p>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
