@@ -1,4 +1,8 @@
 /**
+ * Bevezetés, változók
+*/
+
+/**
  * Task 1
  * Hozz létre kettő előjeles egész változót egy és ketto néven,
  * valamint két előjel nélküli egész változót harom és negy néven.

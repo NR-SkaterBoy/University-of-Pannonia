@@ -1,4 +1,8 @@
 /**
+ * Beolvasás, kiírás, elágazások
+*/
+
+/**
  * Task 1
  * Adottak a következő változók:
  * Típus: dupla lebegőpontos, név: harom
