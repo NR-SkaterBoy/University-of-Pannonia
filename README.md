@@ -15,8 +15,6 @@ Email: nr.rick.dev@gmail.com
 
 Website: https://richardneuvald.hu
 
-Discord: 
-
 ### Munkáim
 
 - Discord MulticolorBot: https://multicolorbot.com/
