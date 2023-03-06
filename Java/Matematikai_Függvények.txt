@@ -1,0 +1,13 @@
+# A legfontosabb matematikai függvények
+
+Math.abs()      -> Abszolútérték
+Math.ceil()     -> A paramétert követő legkisebb egész szám, ami nem kisebb, mint a paraméter
+Math.floor()    -> A paramétert követő legnagyobb egész szám, ami nem nagyobb
+Math.exp()      -> Exponenciális függvény
+Math.log()      -> A-nek a természetes alapú logaritmusa
+Math.max()      -> Visszatér a maximummal
+Math.min()      -> Visszatér a minimummal
+Math.pow()      -> Hatványfüggvény
+Math.random()   -> Visszatér egy random számmal 0.0 és 1.0 között
+Math.round()    -> A legközelebbi egész számra kerekít
+Math.sqrt()     -> Gyökvüggvény
