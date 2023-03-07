@@ -1,0 +1,14 @@
+html, body {
+    width: 100%;
+}
+
+img {
+    width: 150px;
+    height: 220px;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

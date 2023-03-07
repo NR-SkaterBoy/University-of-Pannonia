@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utazás</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header><b>Amerikai utazás - 2023</b></header>
+    <table>
+        <tr>
+            <td>
+                <figure>
+                    <img src="./img/goldi.jpg" alt="">
+                    <figcaption>
+                        <p class="mid">Goldengate Bridge</p>
+                        <input type="button" value="+" name="goldi" onclick="add(this.name)"><input type="button"
+                            value="-" name="goldi" onclick="minus(this.name)">
+                    </figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure>
+                    <img src="./img/grand.jpg" alt="">
+                    <figcaption>
+                        <p class="mid">Grand Canyon</p>
+                        <input type="button" value="+" name="grand" onclick="add(this.name)"><input type="button"
+                            value="-" name="grand" onclick="minus(this.name)">
+                    </figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure>
+                    <img src="./img/miami.jpg" alt="">
+                    <figcaption>
+                        <p class="mid">Miami</p>
+                        <input type="button" value="+" name="miami" onclick="add(this.name)"><input type="button"
+                            value="-" name="miami" onclick="minus(this.name)">
+                    </figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure>
+                    <img src="./img/nyc.jpg" alt="">
+                    <figcaption>
+                        <p class="mid">New York</p>
+                        <input type="button" value="+" name="nyc" onclick="add(this.name)"><input type="button"
+                            value="-" name="nyc" onclick="minus(this.name)">
+                    </figcaption>
+                </figure>
+            </td>
+
+            </figure>
+        </tr>
+    </table>
+
+
+    <table>
+        <tr>
+            <td>Goldengate Bridge</td>
+            <td><span id="goldi">0</span> db</td>
+        </tr>
+        <tr>
+            <td>Grand Canyon</td>
+            <td><span id="grand">0</span> db</td>
+        </tr>
+        <tr>
+            <td>Miami</td>
+            <td><span id="miami">0</span> db</td>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td><span id="nyc">0</span> db</td>
+        </tr>
+        <tr>
+            <td>A kosár értéke</td>
+            <td><span id="kosar">0</span> Ft</td>
+        </tr>
+    </table>
+
+    <p>Egyenleg <span id="egyenleg">0</span> Ft</p>
+
+    <input type="button" value="Kosár ürítése" onclick="resetData()">
+    <input type="button" value="Karácsonyi kedvezmény 10%" onclick="discount()">
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
