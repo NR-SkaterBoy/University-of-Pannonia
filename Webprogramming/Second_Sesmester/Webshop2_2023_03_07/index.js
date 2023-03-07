@@ -220,3 +220,8 @@ function createObjects() {
     createCheckboxes()
     createRadio()
 }
+
+/**
+ * TODO: Ellenőrizni, hogy az elemek léteznek e már
+ * TODO: Minden kedvezményhez hozzon létre egy értéket, mejd ezt vonja le a végösszegből
+ */
