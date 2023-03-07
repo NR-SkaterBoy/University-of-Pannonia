@@ -38,6 +38,7 @@ write.balanceID.innerHTML = data.balance
  * @param {string} place It gives a place in USA
  */
 function add(place) {
+    if (data.price > data.balance) return notify("price")
     switch (place) {
         case "goldi":
             data.price += data.goldi.cost
@@ -112,7 +113,6 @@ function resetData() {
  * @returns Data of object
  */
 function writeData() {
-    if (data.price > data.balance) return notify("price")
     write.goldiID.innerHTML = data.goldi.times
     write.grandID.innerHTML = data.grand.times
     write.miamiID.innerHTML = data.miami.times
