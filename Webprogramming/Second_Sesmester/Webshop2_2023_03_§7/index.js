@@ -16,9 +16,10 @@ let data = {
         times: 0,
     },
     defValue: 1,
-    isNull: 0, 
+    isNull: 0,
     price: 0, // Starting price
-    balance: Math.floor(Math.random() * 10000000) // Random number
+    balance: Math.floor(Math.random() * 10000000), // Random number
+    discount: [0.1,]
 }
 
 const write = {
@@ -27,7 +28,9 @@ const write = {
     miamiID: document.getElementById("miami"),
     nycID: document.getElementById("nyc"),
     kosarID: document.getElementById("kosar"),
-    balanceID: document.getElementById("egyenleg")
+    balanceID: document.getElementById("egyenleg"),
+    currTime: document.getElementById("currTime"),
+    backTime: document.getElementById("backTime"),
 }
 
 // Writes the current balance
@@ -75,18 +78,21 @@ function minus(place) {
             break;
         case "grand":
             if (data.grand.times >= data.defValue) {
-            data.price -= data.grand.cost
-            data.grand.times--}
+                data.price -= data.grand.cost
+                data.grand.times--
+            }
             break;
         case "miami":
             if (data.miami.times >= data.defValue) {
-            data.price -= data.miami.cost
-            data.miami.times--}
+                data.price -= data.miami.cost
+                data.miami.times--
+            }
             break;
         case "nyc":
             if (data.nyc.times >= data.defValue) {
-            data.price -= data.nyc.cost
-            data.nyc.times--}
+                data.price -= data.nyc.cost
+                data.nyc.times--
+            }
             break;
     }
     writeData()
@@ -127,17 +133,90 @@ function discount() { notify("discount") }
 
 /**
  * Function of the alert messages
- * @param {"empty" | "price" | "discount"} [type="empty"] Type of the notification. Default is empty
+ * @param {"empty" | "price" | "discount" | "checkbox" | "radio"} [type="empty"] Type of the notification. Default is empty
  */
-function notify(type="empty") {
+function notify(type = "empty") {
     switch (type) {
         case "price":
             alert("Erre nincs elég pénze!")
             break;
         case "discount":
-            alert(`A kosár értéke ${data.price}, melynek a 10%-a ${data.price * 0.9}`)
+            alert(`A kosár értéke ${data.price}, melynek a 10%-a ${data.price * data.discount[0]}`)
+            break;
+        case "checkbox":
+            alert("Nem hozható létre 0 elem, vagy üres az input mező!")
+            break;
+        case "radio":
+            alert("Nem hozható létre 0 elem, vagy üres az input mező!")
+            break;
         default:
             alert("Minden tételt eltávolított a kosárból!")
             break;
     }
+}
+
+/**
+ * Shows the current date and time
+ */
+setInterval(() => {
+    const date = new Date()
+    write.currTime.innerHTML = `${date.getFullYear()}.${date.getMonth()}.${date.getDay()}. - ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
+
+}, 1);
+
+/**
+ * Shows the remaining time
+ */
+setInterval(() => {
+    const date = new Date()
+    const lastdate = new Date("2023.06.15")
+    write.backTime.innerHTML = `Évek: ${lastdate.getFullYear() - date.getFullYear()} Hónapok: ${lastdate.getMonth() - date.getMonth()} Napok: ${lastdate.getDay() - date.getDay()}`
+}, 1)
+
+/**
+ * Creates checkboxes
+ * @returns Checkbox element
+ */
+function createCheckboxes() {
+    const checkboxCount = document.getElementById("check").value;
+    const checkDiv = document.getElementById("checkboxszama");
+    if (parseInt(checkboxCount) == 0 || checkboxCount == '') return notify("checkbox")
+    for (let i = 0; i < parseInt(checkboxCount); i++) {
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+
+        const text = document.createElement("span");
+        text.innerHTML = `<br>Kedvezmény ${i + 1}`;
+
+        checkDiv.appendChild(text);
+        checkDiv.appendChild(checkbox);
+    }
+}
+
+/**
+ * Creates radioboxes
+ * @returns Radiobox element
+ */
+function createRadio() {
+    const radioCount = document.getElementById("radio").value;
+    const radioDiv = document.getElementById("radioszama");
+    if (parseInt(radioCount) == 0 || radioCount == '') return notify("radio")
+    for (let i = 0; i < parseInt(radioCount); i++) {
+        const radiobox = document.createElement("input");
+        radiobox.type = "radio";
+
+        const text = document.createElement("span");
+        text.innerHTML = `<br>Kedvezmény ${i + 1}`;
+
+        radioDiv.appendChild(text);
+        radioDiv.appendChild(radiobox);
+    }
+}
+
+/**
+ * Calls these functions
+ */
+function createObjects() {
+    createCheckboxes()
+    createRadio()
 }

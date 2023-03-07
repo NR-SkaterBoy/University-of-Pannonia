@@ -11,6 +11,8 @@
 
 <body>
     <header><b>Amerikai utazás - 2023</b></header>
+    <p>Aktuális Dátum és Idő: <span id="currTime"></p>
+    <p></span>Ajánlatból visszalévő idő: <span id="backTime"></span></p>
     <table>
         <tr>
             <td>
@@ -86,6 +88,14 @@
 
     <input type="button" value="Kosár ürítése" onclick="resetData()">
     <input type="button" value="Karácsonyi kedvezmény 10%" onclick="discount()">
+
+    <div>
+        <p>Checkboxok száma: <input type="number" name="checkbox" id="check" max="3" min="0"></p>
+        <p>Radiogombok száma: <input type="number" name="radiobox" id="radio" max="2" min="0"></p>
+        <input type="button" value="Létrehoz" onclick="createObjects()">
+        <div id="checkboxszama"></div>
+        <div id="radioszama"></div>
+    </div>
 
     <script src="./index.js"></script>
 </body>

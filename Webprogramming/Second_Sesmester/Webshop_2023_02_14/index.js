@@ -136,6 +136,7 @@ function notify(type="empty") {
             break;
         case "discount":
             alert(`A kosár értéke ${data.price}, melynek a 10%-a ${data.price * 0.9}`)
+            break;
         default:
             alert("Minden tételt eltávolított a kosárból!")
             break;
