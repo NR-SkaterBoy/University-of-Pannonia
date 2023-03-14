@@ -223,5 +223,5 @@ function createObjects() {
 
 /**
  * TODO: Ellenőrizni, hogy az elemek léteznek e már
- * TODO: Minden kedvezményhez hozzon létre egy értéket, mejd ezt vonja le a végösszegből
+ * TODO: Minden kedvezményhez hozzon létre egy értéket, majd ezt vonja le a végösszegből
  */
