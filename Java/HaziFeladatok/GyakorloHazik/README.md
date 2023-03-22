@@ -1,0 +1,1 @@
+## Gyakorló Házi Feladatok, melyeket nem kötelező megoldani, de gyakorlás miatt ajánlott

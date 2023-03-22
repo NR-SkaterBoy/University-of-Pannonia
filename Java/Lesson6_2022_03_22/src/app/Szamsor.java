@@ -37,4 +37,11 @@ public class Szamsor {
          System.out.println();
     }
     
+    public double atlag() {
+        double sum = 0;
+        for (int i = 0; i < tomb.length; i++) {
+            sum += tomb[i];
+        }
+        return sum / tomb.length;
+    }
 }
