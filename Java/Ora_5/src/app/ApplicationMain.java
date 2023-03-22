@@ -58,9 +58,9 @@ public class ApplicationMain {
 		 masolat.kiir();
 
 		// // Rendezveny teszt: legjobb nap
-		// System.out.println();
-		// r1.legjobbNap();
-		// r2.legjobbNap();
+		 System.out.println();
+		 r1.legjobbNap();
+		 r2.legjobbNap();
 
 		// // Szamsor teszt: kisebb átlag
 		// System.out.println();
@@ -76,6 +76,14 @@ public class ApplicationMain {
 		// kisebbAtlag(s1,r1);
 		// System.out.println("Atlag osszehasonlitas: s2 vs r2: ");
 		// kisebbAtlag(s2,r2);
+                
+                
+//                public static void kisebbAtlag(Szamsor s1, Szamsor s2) {
+//                    double atlag = 0;
+//                    for (int i = 0; i < tomb.; i++) {
+//                        
+//                    }
+//                }
     }
     
 }
