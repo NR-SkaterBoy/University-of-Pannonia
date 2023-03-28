@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PIZZAS>
+    <PIZZA>
+        <ID>1</ID>
+        <NAME>Margaréta</NAME>
+        <TOPPINGS>
+            <TOPPING>Paradicsomos alap</TOPPING>
+            <TOPPING>Sonka</TOPPING>
+            <TOPPING>Kukorica</TOPPING>
+        </TOPPINGS>
+        <PRICE>2000</PRICE>
+    </PIZZA>
+    <PIZZA>
+        <ID>2</ID>
+        <NAME>Kebabos</NAME>
+        <TOPPINGS>
+            <TOPPING>Paradicsomos alap</TOPPING>
+            <TOPPING>Kebab hús</TOPPING>
+            <TOPPING>Hagyma</TOPPING>
+            <TOPPING>Pepperóni</TOPPING>
+        </TOPPINGS>
+        <PRICE>2500</PRICE>
+    </PIZZA>
+    <PIZZA>
+        <ID>3</ID>
+        <NAME>Magyaros</NAME>
+        <TOPPINGS>
+            <TOPPING>Paradicsomos alap</TOPPING>
+            <TOPPING>Kolbász</TOPPING>
+            <TOPPING>Hagyma</TOPPING>
+            <TOPPING>Pepperóni</TOPPING>
+        </TOPPINGS>
+        <PRICE>2300</PRICE>
+    </PIZZA>
+</PIZZAS>
