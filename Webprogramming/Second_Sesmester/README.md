@@ -1,1 +1,0 @@
-Az alábbi feladatok 2022-2023, második szemeszterében voltak feladva a Mérnökinformatikai kar hallgatóinak.

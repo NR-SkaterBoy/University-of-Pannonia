@@ -1,0 +1,1 @@
+A 2022/23-as tanév során feladott feladatok találhatóak meg Programozás I. tantárgyból.
