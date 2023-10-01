@@ -1,22 +1,35 @@
-# University-of-Pannonia
+# Pannon Egyetem
 
-Gazdaságinforamtika szakon tanulok, azonban 2023/2024-es tanévben átjelentkezek programtervező informatikára. Az egyetem alatt írt házi/órai feladatokat töltöm fel ide, mely segítséget nyújthat új/lemaradt hallgatóknak. Feltöltésre kerülhetnek a próba/éles zh feladatok megoldása. Az anyagokat folyamatosan frissítem, töltögetem fel heti szinten. A legtöbb feladatot teljesen befejezem, azonban ez szabadidőmtől függ. Mivel jelenleg Gazdaságinformatika szokon tanulok, így nem érhetőek el azok a kódok, melyek C++-ban íródtak.
+## Bemutatkozás
 
-## Programozós órák - Dátum
+Sziasztok, Ricsi vagyok, valószínűleg már sokan ismerhettek órákról vagy a közösségi életből. Véleményem szerint gimnáziumi éveim alatt erős alapokat szereztem a programozás terén. Tanulmányaimat 2022/23-as évben kezdtem meg Gazdaságinformatikusként, azonban hamar kiderült, hogy a gazdaság nem az én vonalam, így a 2023/24-es évre szakot váltottam, hogy Programozóinformatikusként tanuljak. Egyszerű szakváltás helyett újrajelentkeztem az egyetemre, hogy az új tanmenet szerint tanuljak, így sajnos valtak tantárgyak, amiket nem tudtam elfogadtatni, így előfordulhat, hogy egy-egy tantárgy többször is szerepel.
 
-- Webprogramozás 1-2 (2022/2023 | 1-2. félév)
-- Java (2022/2023 | 2. félév)
-- C (2022/2023 | 1. félév)
-- Bash (2022/2023 | 2. félév)
+## Kinek ajánlom?
+
+Igazság szerint mindenkinek hasznos lehet, ha lemaradt az órán, vagy elakadt a házi feladatokkal.
+
+## Feltölthetem-e a kódjaimat?
+
+A legegyszerűbb válasz az, hogy igen. HA ismered a Github és a Git működését, akkor nyugodtan töltsd fel, ha viszont új vagy, és nem ismered, akkor írj egy e-mailt.
+
+### Elfogattatott tantárgyaim
+
+- Webprogramozás I-II. (2022/2023) 1-2. félév)
+
+### Régi Tanmenet
+| Tantárgy | Félév |
+|--|--|
+| Webprogramozás I-II. | (2022/2023) 1-2. félév |
+|C - Programozás I. | (2022/23) 1. félév |
+
+### Új Tanmenet
+| Tantárgy | Félév |
+|--|--|
+| C - Programozás I. | (2023/24) 1. félév |
+| Programozás Alapjai | (2023/24) 1. félév |
 
 ## Elérhetőségeim:
 
 Email: nr.rick.dev@gmail.com
 
 Website: https://richardneuvald.hu
-
-### Munkáim
-
-- Discord MulticolorBot: https://multicolorbot.com/
-- Password Generator: https://tinyurl.com/4c3bp82j
-- Password Checker: https://tinyurl.com/26au46yu
