@@ -14,7 +14,7 @@ A legegyszerűbb válasz az, hogy igen. HA ismered a Github és a Git működés
 
 ### Elfogattatott tantárgyaim
 
-- Webprogramozás I-II. (2022/2023) 1-2. félév)
+- Webprogramozás I-II. (2022/2023) 1-2. félév
 
 ### Régi Tanmenet
 | Tantárgy | Félév |
