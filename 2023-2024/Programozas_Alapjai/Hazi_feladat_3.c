@@ -75,7 +75,7 @@ int main()
 /**
  * Készíts egy C programot, amely bekér 3 egész számot, majd megjeleníti őket csökkenő sorrendben!
  * A kimeneten a számok egy sorban legyenek, szóközzel elválasztva
- * A feladat egy haladó technikával lett megoldva, azonban if-elseekkel is meg lehet csinálni
+ * A feladat egy haladó technikával lett megoldva, azonban if-elseekkel is meg lehet csinálni, melyet a feladat alatt prezentálok
  */
 
 #include <stdio.h>
@@ -103,6 +103,37 @@ int main() {
     csokkenoRendezes(szamok, meret);
     for (int i = 0; i < meret; i++) {
         printf("%d ", szamok[i]);
+    }
+}
+
+// Egyszerűbb megolás if-else
+
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+    
+    if (a > b && a > c) {
+        if (b > c) {
+            printf("%d %d %d", a, b, c);
+        }
+        else
+            printf("%d %d %d", a, c, b);
+    }
+    else if (b > a && b > c) {
+        if (a > c)
+            printf("%d %d %d", b, a, c);
+        else
+            printf("%d %d %d", b, c, a);
+    }
+    else {
+        if ( b > a)
+            printf("%d %d %d", c, b, a);
+        else
+            printf("%d %d %d", c, a, b);
     }
 }
 
