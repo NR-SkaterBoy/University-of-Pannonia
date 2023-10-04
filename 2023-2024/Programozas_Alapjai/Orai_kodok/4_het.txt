@@ -1,0 +1,128 @@
+!===== Ciklusok =====
+
+Ciklus
+    ...
+    ...
+Amíg feltetel
+
+Ciklus amíg feltetel
+    ...
+    ...
+Ciklus vége
+
+Ciklus i=1-től N-ig
+    ...
+    ...
+Ciklus vége
+
+!===== 1. feladat =====
+/**
+ * Addig kérjünk be számokat, amíg a szám oszthatő kettővel
+ */
+
+Ciklus
+    Bekér szám
+Amíg (szám mod 2 != 0)
+Kiír szám
+
+!===== 2. feladat =====
+/**
+ * Kérjünk be egy számot, és mondjuk meg a legkisebb számot
+ */
+
+Beker szám
+oszto = 2
+Ciklus amíg (szám mod 2 != 0)
+    oszto=oszto+1
+Ciklus vége
+Kiír oszto
+
+!===== 3. feladat =====
+/**
+ * A bekért sám faktoriálisa
+ */
+
+Bekér szám
+faktoriális = 1
+Ciklus i=2-től szám-ig
+    faktoriális = faktoriális*i
+Ciklus vége
+Kiír faktoriális
+
+!===== 3. feladat =====
+/**
+ * Kérjünk be egy számot, bontsuk fel prím tényezőkre
+ */
+
+Bekér szám
+oszto = 2
+Ciklus amíg (szám > 1)
+    if szám mod oszto == 0 Akkor
+        szám = szám / oszto
+        Ha szám == 1 Akkor
+            Kiír oszto
+        Különben osztó, '*'
+        Elágazás vége
+    Különben
+        oszto = oszto+1
+    Elágazás vége
+Ciklus vége
+
+!===== 4. feladat =====
+/**
+ * Kérjünk be N számot és adjuk meg, hogy a bekérés sorrendjében a számsoorozat monoton növekvő e
+ */
+
+Bekér N
+Bekér X
+növekvő = igaz
+elozo = X
+Ciklus (i=2-től N-ig)
+    Bekér X
+    Ha X < elozo
+        növekvő = hamis
+    Elágazás vége
+    elozo = X
+Ciklus vége
+
+!===== 5. feladat =====
+/**
+ * Bekért pozitív számok maximuma
+ */
+
+Bekér N
+darab = 0
+osszeg = 0
+max = 0
+Ciklus i=1-től N-ig
+    Beker szam
+    Ha szam > 0 Akkor
+        darab = darab+1
+        osszeg = osszeg+szam
+        Ha szam > max Akkor
+            max = szam
+        Elágazás vége
+    Elágazás vége
+Ciklus vége
+
+!===== 6. feladat =====
+/**
+ * Mikor prím egy prím
+ */
+
+Bekér szám
+Ciklus
+
+
+!===== 6. feladat =====
+/**
+ * N db dolgozat, érdemjegyeinek bekérése
+ */
+ 
+Bekér db
+
+Ciklus i=1-től db-ig
+    Ciklus
+        Bekér jegy
+    Amíg (jegy < 1 VAGY jegy > 5)
+Ciklus vége
