@@ -35,10 +35,9 @@ int ar(int db, unsigned kap, unsigned ar)
 
 #include <stdio.h>
 
-unsigned erdemjegy(unsigned pont)
+unsigned erdemjegy(unsigned pontszam)
 {
 	// Ide írja a függvényt
-	int pontszam = pont;
 	if (pontszam >= 0 && pontszam <= 25)
 	{
 		return printf("1 ");
