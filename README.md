@@ -29,6 +29,7 @@ A legegyszerűbb válasz az, hogy igen. HA ismered a Github és a Git működés
 |--|--|
 | C - Programozás I. | (2023/24) 1. félév |
 | Programozás Alapjai | (2023/24) 1. félév |
+| C# - Programozás II. | (2023/24) 2. félév |
 
 ## Elérhetőségeim:
 
