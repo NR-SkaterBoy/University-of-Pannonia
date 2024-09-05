@@ -2,3 +2,6 @@
 bin/
 obj/
 **/properties/
+*.sln
+App.config
+*.csproj

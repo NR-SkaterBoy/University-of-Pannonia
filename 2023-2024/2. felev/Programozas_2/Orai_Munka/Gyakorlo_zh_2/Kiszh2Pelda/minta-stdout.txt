@@ -1,0 +1,108 @@
+﻿
+
+----START OF PART1----
+Attack happened
+----END OF PART1----
+
+
+----START OF PART2----
+Pos: (4.5;123.6;3.5), Health: 130/130
+Pos: (12.5;111.5;7.6), Health: 110/110
+----END OF PART2----
+
+
+----START OF PART2A----
+Pos: (4.5;123.6;3.5), Health: 130/130
+Pos: (12.5;111.5;7.6), Health: 110/110
+--Attack--
+Pos: (4.5;123.6;3.5), Health: 95/130
+Pos: (12.5;111.5;7.6), Health: 70/110
+--Attack--
+Pos: (4.5;123.6;3.5), Health: 60/130
+Pos: (12.5;111.5;7.6), Health: 30/110
+--Attack--
+Pos: (4.5;123.6;3.5), Health: 25/130
+Pos: (12.5;111.5;7.6), Health: 0/110
+----END OF PART2A----
+
+
+----START OF PART3----
+Pos: (123.4;122.7;1.4), Health: 560/560, Armor: 130/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 240/240
+----END OF PART3----
+
+
+----START OF PART3A----
+Pos: (123.4;122.7;1.4), Health: 560/560, Armor: 130/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 240/240
+Armor -100
+Pos: (123.4;122.7;1.4), Health: 560/560, Armor: 30/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 140/240
+Armor -50
+Pos: (123.4;122.7;1.4), Health: 560/560, Armor: 0/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 90/240
+Armor -120
+Pos: (123.4;122.7;1.4), Health: 560/560, Armor: 0/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 0/240
+Armor +120
+Pos: (123.4;122.7;1.4), Health: 560/560, Armor: 120/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 120/240
+Armor +60
+Pos: (123.4;122.7;1.4), Health: 560/560, Armor: 130/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 180/240
+Armor +90
+Pos: (123.4;122.7;1.4), Health: 560/560, Armor: 130/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 240/240
+----END OF PART3A----
+
+
+----START OF PART4----
+Armor -100
+Pos: (123.4;122.7;1.4), Health: 560/560, Armor: 30/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 140/240
+Damage 50
+Pos: (123.4;122.7;1.4), Health: 540/560, Armor: 0/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 90/240
+Damage 150
+Pos: (123.4;122.7;1.4), Health: 390/560, Armor: 0/130
+Pos: (223.4;-22.7;1.8), Health: 290/350, Armor: 0/240
+Armor +50
+Pos: (123.4;122.7;1.4), Health: 390/560, Armor: 50/130
+Pos: (223.4;-22.7;1.8), Health: 290/350, Armor: 50/240
+Damage 250
+Pos: (123.4;122.7;1.4), Health: 190/560, Armor: 0/130
+Pos: (223.4;-22.7;1.8), Health: 90/350, Armor: 0/240
+Damage 250
+Pos: (123.4;122.7;1.4), Health: 0/560, Armor: 0/130
+Pos: (223.4;-22.7;1.8), Health: 0/350, Armor: 0/240
+Armor +100
+Pos: (123.4;122.7;1.4), Health: 0/560, Armor: 100/130
+Pos: (223.4;-22.7;1.8), Health: 0/350, Armor: 100/240
+Heal 100
+Pos: (123.4;122.7;1.4), Health: 100/560, Armor: 100/130
+Pos: (223.4;-22.7;1.8), Health: 100/350, Armor: 100/240
+Heal 200
+Pos: (123.4;122.7;1.4), Health: 300/560, Armor: 100/130
+Pos: (223.4;-22.7;1.8), Health: 300/350, Armor: 100/240
+Heal 80
+Pos: (123.4;122.7;1.4), Health: 380/560, Armor: 100/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 130/240
+Heal 200
+Pos: (123.4;122.7;1.4), Health: 560/560, Armor: 120/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 240/240
+Heal 50
+Pos: (123.4;122.7;1.4), Health: 560/560, Armor: 130/130
+Pos: (223.4;-22.7;1.8), Health: 350/350, Armor: 240/240
+----END OF PART4----
+
+
+----START OF PART5----
+Pos: (28.7;36.9;1.2), Health: 560/560, Armor: 130/130
+Pos: (32.8;42.8;2.4), Health: 350/350, Armor: 240/240
+--Attack--
+Health: 950/1000
+Health: 930/1000
+--Attack--
+Health: 810/1000
+Health: 830/1000
+----END OF PART5----

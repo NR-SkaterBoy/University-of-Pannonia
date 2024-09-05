@@ -1,0 +1,184 @@
+---Start CarRent---
+
+
+----START OF PART1----
+
+!!! IVehicle is an inferface !!!
+Kategoria: Kerekpar, Kerekek szama: 2
+----END OF PART1----
+
+
+----START OF PART2ABCD----
+
+PassengerCar - Rendszam: ABC-123, Marka: Ford, Atlagfogyasztas: 6.2 l/100km, Ar: 45000000 Ft, Uzemanyagmennyiseg: 32 l, Szallithato szemelyek szama: 5 fo
+Fogyasztasa:
+100 km-en: 6.20
+150 km-en: 9.30
+200 km-en: 12.40
+500 km-en: 31.00
+----
+PassengerCar - Rendszam: DCS-448, Marka: Skoda, Atlagfogyasztas: 8 l/100km, Ar: 600000 Ft, Uzemanyagmennyiseg: 34 l, Szallithato szemelyek szama: 4 fo
+Fogyasztasa:
+100 km-en: 8.00
+150 km-en: 12.00
+200 km-en: 16.00
+500 km-en: 40.00
+----
+PassengerCar - Rendszam: AB-CD-123, Marka: Mercedes, Atlagfogyasztas: 14.6 l/100km, Ar: 38500000 Ft, Uzemanyagmennyiseg: 17 l, Szallithato szemelyek szama: 6 fo
+Fogyasztasa:
+100 km-en: 14.60
+150 km-en: 21.90
+200 km-en: 29.20
+500 km-en: 73.00
+----
+----END OF PART2ABCD----
+
+
+----START OF PART2EF----
+
+A ABC-123 rendszamu, Ford tipusu, 45000000 Ft aru szemelyauto besorolasa: felso kategoria
+A ABC-123 rendszamu, Ford tipusu szemelyauto kerekeinek szama: 4
+----
+A DCS-448 rendszamu, Skoda tipusu, 600000 Ft aru szemelyauto besorolasa: also kategoria
+A DCS-448 rendszamu, Skoda tipusu szemelyauto kerekeinek szama: 4
+----
+A AB-CD-123 rendszamu, Mercedes tipusu, 38500000 Ft aru szemelyauto besorolasa: felso kategoria
+A AB-CD-123 rendszamu, Mercedes tipusu szemelyauto kerekeinek szama: 4
+----
+----END OF PART2EF----
+
+
+----START OF PART3ABCD----
+
+FreightCar - Rendszam: BGF-567, Marka: Scania, Atlagfogyasztas: 66.2 l/100km, Ar: 23000000 Ft, Uzemanyagmennyiseg: 234 l, Teherbiras: 12 t
+Fogyasztasa:
+100 km-en: 66.20
+150 km-en: 99.30
+200 km-en: 132.40
+500 km-en: 331.00
+----
+FreightCar - Rendszam: KIR-391, Marka: DAF, Atlagfogyasztas: 54 l/100km, Ar: 42587000 Ft, Uzemanyagmennyiseg: 120 l, Teherbiras: 40 t
+Fogyasztasa:
+100 km-en: 54.00
+150 km-en: 81.00
+200 km-en: 108.00
+500 km-en: 270.00
+----
+FreightCar - Rendszam: REM-765, Marka: Mercedes, Atlagfogyasztas: 58.4 l/100km, Ar: 42587000 Ft, Uzemanyagmennyiseg: 43 l, Teherbiras: 40 t
+Fogyasztasa:
+100 km-en: 58.40
+150 km-en: 87.60
+200 km-en: 116.80
+500 km-en: 292.00
+----
+----END OF PART3ABCD----
+
+
+----START OF PART3EF----
+
+A BGF-567 rendszamu, Scania tipusu, 12 t teherbirasu teherauto besorolasa: kozepnehez teherauto
+A BGF-567 rendszamu, Scania tipusu teherauto kerekeinek szama: 12
+----
+A KIR-391 rendszamu, DAF tipusu, 40 t teherbirasu teherauto besorolasa: nehez teherauto
+A KIR-391 rendszamu, DAF tipusu teherauto kerekeinek szama: 16
+----
+A REM-765 rendszamu, Mercedes tipusu, 40 t teherbirasu teherauto besorolasa: nehez teherauto
+A REM-765 rendszamu, Mercedes tipusu teherauto kerekeinek szama: 16
+----
+----END OF PART3EF----
+
+
+----START OF PART4----
+
+Tankolas elott 32 l uzemanyaggal, 6.2 l atlagfogyasztassal:
+A ABC-123 rendszamu Ford PassengerCar kepes megtenni 100 km-t? Igen
+A ABC-123 rendszamu Ford PassengerCar kepes megtenni 200 km-t? Igen
+A ABC-123 rendszamu Ford PassengerCar kepes megtenni 300 km-t? Igen
+A ABC-123 rendszamu Ford PassengerCar kepes megtenni 500 km-t? Igen
+40 l tankolasa utan 72 l uzemanyaggal, 6.2 l atlagfogyasztassal:
+A ABC-123 rendszamu Ford PassengerCar kepes megtenni 100 km-t? Igen
+A ABC-123 rendszamu Ford PassengerCar kepes megtenni 200 km-t? Igen
+A ABC-123 rendszamu Ford PassengerCar kepes megtenni 300 km-t? Igen
+A ABC-123 rendszamu Ford PassengerCar kepes megtenni 500 km-t? Igen
+----
+Tankolas elott 34 l uzemanyaggal, 8 l atlagfogyasztassal:
+A DCS-448 rendszamu Skoda PassengerCar kepes megtenni 100 km-t? Igen
+A DCS-448 rendszamu Skoda PassengerCar kepes megtenni 200 km-t? Igen
+A DCS-448 rendszamu Skoda PassengerCar kepes megtenni 300 km-t? Igen
+A DCS-448 rendszamu Skoda PassengerCar kepes megtenni 500 km-t? Nem
+40 l tankolasa utan 74 l uzemanyaggal, 8 l atlagfogyasztassal:
+A DCS-448 rendszamu Skoda PassengerCar kepes megtenni 100 km-t? Igen
+A DCS-448 rendszamu Skoda PassengerCar kepes megtenni 200 km-t? Igen
+A DCS-448 rendszamu Skoda PassengerCar kepes megtenni 300 km-t? Igen
+A DCS-448 rendszamu Skoda PassengerCar kepes megtenni 500 km-t? Igen
+----
+Tankolas elott 17 l uzemanyaggal, 14.6 l atlagfogyasztassal:
+A AB-CD-123 rendszamu Mercedes PassengerCar kepes megtenni 100 km-t? Igen
+A AB-CD-123 rendszamu Mercedes PassengerCar kepes megtenni 200 km-t? Nem
+A AB-CD-123 rendszamu Mercedes PassengerCar kepes megtenni 300 km-t? Nem
+A AB-CD-123 rendszamu Mercedes PassengerCar kepes megtenni 500 km-t? Nem
+40 l tankolasa utan 57 l uzemanyaggal, 14.6 l atlagfogyasztassal:
+A AB-CD-123 rendszamu Mercedes PassengerCar kepes megtenni 100 km-t? Igen
+A AB-CD-123 rendszamu Mercedes PassengerCar kepes megtenni 200 km-t? Igen
+A AB-CD-123 rendszamu Mercedes PassengerCar kepes megtenni 300 km-t? Igen
+A AB-CD-123 rendszamu Mercedes PassengerCar kepes megtenni 500 km-t? Nem
+----
+Tankolas elott 234 l uzemanyaggal, 66.2 l atlagfogyasztassal:
+A BGF-567 rendszamu Scania FreightCar kepes megtenni 100 km-t? Igen
+A BGF-567 rendszamu Scania FreightCar kepes megtenni 200 km-t? Igen
+A BGF-567 rendszamu Scania FreightCar kepes megtenni 300 km-t? Igen
+A BGF-567 rendszamu Scania FreightCar kepes megtenni 500 km-t? Nem
+40 l tankolasa utan 274 l uzemanyaggal, 66.2 l atlagfogyasztassal:
+A BGF-567 rendszamu Scania FreightCar kepes megtenni 100 km-t? Igen
+A BGF-567 rendszamu Scania FreightCar kepes megtenni 200 km-t? Igen
+A BGF-567 rendszamu Scania FreightCar kepes megtenni 300 km-t? Igen
+A BGF-567 rendszamu Scania FreightCar kepes megtenni 500 km-t? Nem
+----
+Tankolas elott 120 l uzemanyaggal, 54 l atlagfogyasztassal:
+A KIR-391 rendszamu DAF FreightCar kepes megtenni 100 km-t? Igen
+A KIR-391 rendszamu DAF FreightCar kepes megtenni 200 km-t? Igen
+A KIR-391 rendszamu DAF FreightCar kepes megtenni 300 km-t? Nem
+A KIR-391 rendszamu DAF FreightCar kepes megtenni 500 km-t? Nem
+40 l tankolasa utan 160 l uzemanyaggal, 54 l atlagfogyasztassal:
+A KIR-391 rendszamu DAF FreightCar kepes megtenni 100 km-t? Igen
+A KIR-391 rendszamu DAF FreightCar kepes megtenni 200 km-t? Igen
+A KIR-391 rendszamu DAF FreightCar kepes megtenni 300 km-t? Nem
+A KIR-391 rendszamu DAF FreightCar kepes megtenni 500 km-t? Nem
+----
+Tankolas elott 43 l uzemanyaggal, 58.4 l atlagfogyasztassal:
+A REM-765 rendszamu Mercedes FreightCar kepes megtenni 100 km-t? Nem
+A REM-765 rendszamu Mercedes FreightCar kepes megtenni 200 km-t? Nem
+A REM-765 rendszamu Mercedes FreightCar kepes megtenni 300 km-t? Nem
+A REM-765 rendszamu Mercedes FreightCar kepes megtenni 500 km-t? Nem
+40 l tankolasa utan 83 l uzemanyaggal, 58.4 l atlagfogyasztassal:
+A REM-765 rendszamu Mercedes FreightCar kepes megtenni 100 km-t? Igen
+A REM-765 rendszamu Mercedes FreightCar kepes megtenni 200 km-t? Nem
+A REM-765 rendszamu Mercedes FreightCar kepes megtenni 300 km-t? Nem
+A REM-765 rendszamu Mercedes FreightCar kepes megtenni 500 km-t? Nem
+----
+----END OF PART4----
+
+
+----START OF PART5----
+
+!!! IAvailable is an inferface !!!
+----END OF PART5----
+
+
+----START OF PART6----
+
+A ABC-123 rendszamu Ford elerheto-e 50 km tavolsagra 32 l uzemanyaggal, 6.2 l atlagfogyasztassal? Igen
+A ABC-123 rendszamu Ford elerheto-e 150 km tavolsagra 32 l uzemanyaggal, 6.2 l atlagfogyasztassal? Igen
+A ABC-123 rendszamu Ford elerheto-e 250 km tavolsagra 32 l uzemanyaggal, 6.2 l atlagfogyasztassal? Igen
+----
+A DCS-448 rendszamu Skoda elerheto-e 50 km tavolsagra 34 l uzemanyaggal, 8 l atlagfogyasztassal? Igen
+A DCS-448 rendszamu Skoda elerheto-e 150 km tavolsagra 34 l uzemanyaggal, 8 l atlagfogyasztassal? Igen
+A DCS-448 rendszamu Skoda elerheto-e 250 km tavolsagra 34 l uzemanyaggal, 8 l atlagfogyasztassal? Igen
+----
+A AB-CD-123 rendszamu Mercedes elerheto-e 50 km tavolsagra 17 l uzemanyaggal, 14.6 l atlagfogyasztassal? Igen
+A AB-CD-123 rendszamu Mercedes elerheto-e 150 km tavolsagra 17 l uzemanyaggal, 14.6 l atlagfogyasztassal? Nem
+A AB-CD-123 rendszamu Mercedes elerheto-e 250 km tavolsagra 17 l uzemanyaggal, 14.6 l atlagfogyasztassal? Nem
+----
+----END OF PART6----
+
+---End CarRent---

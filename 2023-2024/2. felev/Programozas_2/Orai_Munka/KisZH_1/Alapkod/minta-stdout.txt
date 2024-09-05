@@ -1,0 +1,64 @@
+﻿
+
+----START OF PART1----
+FootballCompetition a Competition gyerekosztalya: IGEN
+Local Championship : from 2024.01.15 to 2024.04.10
+----END OF PART1----
+
+
+----START OF PART2----
+Latszolag jo
+----END OF PART2----
+
+
+----START OF PART3----
+##fc1##
+Local Championship : 2024.01.15 -> 2024.04.10
+Local FC : 3-1
+University FC : 5-0
+Old Timers : 2-9
+##fc2##
+National Championship : 2024.02.01 -> 2024.06.30
+Alpha Bet Club : 4-0
+Ball Chasers : 0-4
+Football Club FC : 3-2
+Team Shaolin : 2-7
+Team Titans : 6-2
+Ball Benders : 1-1
+Fortress Team : 2-5
+Dragon Football : 4-1
+----END OF PART3----
+
+
+----START OF PART4----
+5
+2
+10
+5
+----END OF PART4----
+
+
+----START OF PART5----
+## With 5 required matches: ##
+Team needs more matches : Local FC
+Team needs more matches : Alpha Bet Club
+Team needs more matches : Ball Chasers
+Team needs more matches : Ball Benders
+## With 8 required matches: ##
+Team needs more matches : Local FC
+Team needs more matches : University FC
+Team needs more matches : Alpha Bet Club
+Team needs more matches : Ball Chasers
+Team needs more matches : Football Club FC
+Team needs more matches : Ball Benders
+Team needs more matches : Fortress Team
+Team needs more matches : Dragon Football
+## With 3 required matches: ##
+Team needs more matches : Ball Benders
+----END OF PART5----
+
+
+----START OF PART6----
+Best team of Local Championship : University FC
+Best team of National Championship : Team Titans
+----END OF PART6----
