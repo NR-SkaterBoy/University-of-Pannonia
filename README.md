@@ -20,16 +20,21 @@ A legegyszerűbb válasz az, hogy igen. HA ismered a Github és a Git működés
 | Tantárgy | Félév |
 | -- | -- |
 | Webprogramozás I-II. | (2022/2023) 1-2. félév |
-| C - Programozás I. | (2022/23) 1. félév |
+| Programozás I. | (2022/23) 1. félév |
 | Programozás Alapjai | (2022/23) 1. félév |
 | Java - Programozás II. | (2022/23) 2. félév |
 
 ### Új Tanmenet
 | Tantárgy | Félév |
 |--|--|
-| C - Programozás I. | (2023/24) 1. félév |
+| Programozás I. | (2023/24) 1. félév |
 | Programozás Alapjai | (2023/24) 1. félév |
 | C# - Programozás II. | (2023/24) 2. félév |
+| .Net alapú fejlesztés | (2024/25) 1. félév |
+| Haladó Programozás | (2024/25) 1. félév |
+| Java Programozás | (2024/25) 1. félév |
+| Python Programozás | (2024/25) 1. félév |
+| Virtuális Valóság | (2024/25) 1. félév |
 
 ## Elérhetőségeim:
 
