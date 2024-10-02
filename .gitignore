@@ -5,3 +5,4 @@ obj/
 *.sln
 App.config
 *.csproj
+**/Java*/**/*.class
