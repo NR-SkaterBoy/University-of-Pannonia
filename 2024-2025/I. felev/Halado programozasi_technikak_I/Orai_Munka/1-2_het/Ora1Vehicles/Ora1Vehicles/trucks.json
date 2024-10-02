@@ -1,0 +1,112 @@
+[
+  {
+    "Brand": "Ford",
+    "Name": "F-150",
+    "Color": "Blue",
+    "HorsePower": 450,
+    "Torque": 510,
+    "PayloadCapacity": 1320,
+    "NumberOfAxles": 2,
+    "LicensePlateNumber": "EFG3456",
+    "Price": 12000000
+  },
+  {
+    "Brand": "Chevrolet",
+    "Name": "Silverado 3500",
+    "Color": "Black",
+    "HorsePower": 445,
+    "Torque": 910,
+    "PayloadCapacity": 2033,
+    "NumberOfAxles": 2,
+    "LicensePlateNumber": "HIJ4567",
+    "Price": 18000000
+  },
+  {
+    "Brand": "Ram",
+    "Name": "2500 HD",
+    "Color": "Red",
+    "HorsePower": 410,
+    "Torque": 429,
+    "PayloadCapacity": 1587,
+    "NumberOfAxles": 2,
+    "LicensePlateNumber": "KLM5678",
+    "Price": 16000000
+  },
+  {
+    "Brand": "Mercedes-Benz",
+    "Name": "Actros",
+    "Color": "White",
+    "HorsePower": 530,
+    "Torque": 2500,
+    "PayloadCapacity": 18000,
+    "NumberOfAxles": 3,
+    "LicensePlateNumber": "NOP6789",
+    "Price": 35000000
+  },
+  {
+    "Brand": "Volvo",
+    "Name": "FH16",
+    "Color": "Silver",
+    "HorsePower": 600,
+    "Torque": 2800,
+    "PayloadCapacity": 20000,
+    "NumberOfAxles": 4,
+    "LicensePlateNumber": "QRS7890",
+    "Price": 37000000
+  },
+  {
+    "Brand": "Kenworth",
+    "Name": "T680",
+    "Color": "Blue",
+    "HorsePower": 455,
+    "Torque": 1650,
+    "PayloadCapacity": 15000,
+    "NumberOfAxles": 2,
+    "LicensePlateNumber": "TUV8901",
+    "Price": 25000000
+  },
+  {
+    "Brand": "Freightliner",
+    "Name": "Cascadia",
+    "Color": "White",
+    "HorsePower": 505,
+    "Torque": 1850,
+    "PayloadCapacity": 18000,
+    "NumberOfAxles": 3,
+    "LicensePlateNumber": "WXY9012",
+    "Price": 30000000
+  },
+  {
+    "Brand": "Mack",
+    "Name": "Anthem",
+    "Color": "Green",
+    "HorsePower": 425,
+    "Torque": 1560,
+    "PayloadCapacity": 16000,
+    "NumberOfAxles": 2,
+    "LicensePlateNumber": "ZAB0123",
+    "Price": 28000000
+  },
+  {
+    "Brand": "Isuzu",
+    "Name": "N-Series",
+    "Color": "Yellow",
+    "HorsePower": 150,
+    "Torque": 375,
+    "PayloadCapacity": 4500,
+    "NumberOfAxles": 2,
+    "LicensePlateNumber": "CDE1234",
+    "Price": 10000000
+  },
+  {
+    "Brand": "Toyota",
+    "Name": "Tundra",
+    "Color": "Gray",
+    "HorsePower": 381,
+    "Torque": 401,
+    "PayloadCapacity": 1720,
+    "NumberOfAxles": 2,
+    "LicensePlateNumber": "FGH2345",
+    "Price": 11000000
+  }
+]

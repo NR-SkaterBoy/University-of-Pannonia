@@ -1,0 +1,101 @@
+[
+  {
+    "Brand": "Ford",
+    "Name": "F-150",
+    "Color": "Red",
+    "HorsePower": 290,
+    "Torque": 265,
+    "Fuel": 1,
+    "Year": 2018,
+    "LicensePlateNumber": "DEF5678",
+    "Price": 8000000
+  },
+  {
+    "Brand": "Tesla",
+    "Name": "Model S",
+    "Color": "White",
+    "HorsePower": 670,
+    "Torque": 900,
+    "Fuel": 3,
+    "Year": 2023,
+    "LicensePlateNumber": "GHI9101",
+    "Price": 35000000
+  },
+  {
+    "Brand": "Honda",
+    "Name": "Civic",
+    "Color": "Black",
+    "HorsePower": 158,
+    "Torque": 138,
+    "Fuel": 0,
+    "Year": 2021,
+    "LicensePlateNumber": "JKL1123",
+    "Price": 6500000
+  },
+  {
+    "Brand": "Volkswagen",
+    "Name": "Golf",
+    "Color": "Silver",
+    "HorsePower": 147,
+    "Torque": 184,
+    "Fuel": 2,
+    "Year": 2019,
+    "LicensePlateNumber": "MNO1345",
+    "Price": 7000000
+  },
+  {
+    "Brand": "BMW",
+    "Name": "3 Series",
+    "Color": "Grey",
+    "HorsePower": 255,
+    "Torque": 295,
+    "Fuel": 1,
+    "Year": 2022,
+    "LicensePlateNumber": "PQR1567",
+    "Price": 15000000
+  },
+  {
+    "Brand": "Nissan",
+    "Name": "Leaf",
+    "Color": "Green",
+    "HorsePower": 147,
+    "Torque": 236,
+    "Fuel": 3,
+    "Year": 2020,
+    "LicensePlateNumber": "STU1789",
+    "Price": 9000000
+  },
+  {
+    "Brand": "Chevrolet",
+    "Name": "Malibu",
+    "Color": "Blue",
+    "HorsePower": 160,
+    "Torque": 184,
+    "Fuel": 0,
+    "Year": 2017,
+    "LicensePlateNumber": "VWX1920",
+    "Price": 5500000
+  },
+  {
+    "Brand": "Hyundai",
+    "Name": "Elantra",
+    "Color": "Yellow",
+    "HorsePower": 147,
+    "Torque": 132,
+    "Fuel": 2,
+    "Year": 2016,
+    "LicensePlateNumber": "YZA2134",
+    "Price": 4500000
+  },
+  {
+    "Brand": "Audi",
+    "Name": "A4",
+    "Color": "White",
+    "HorsePower": 261,
+    "Torque": 273,
+    "Fuel": 0,
+    "Year": 2021,
+    "LicensePlateNumber": "BCD2345",
+    "Price": 13000000
+  }
+]
