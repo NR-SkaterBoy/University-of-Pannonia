@@ -6,3 +6,5 @@ obj/
 App.config
 *.csproj
 **/Java*/**/*.class
+
+**/Python*/**/__pycache__
